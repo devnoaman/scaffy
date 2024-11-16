@@ -5,6 +5,8 @@
   "version": "0.0.1",
   "publisher": "solam",
   "repository": " https://github.com/devnoaman/scaffy.git",
+  "license": "MIT",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.95.0"
   },
