@@ -20,3 +20,18 @@
 Alternatively, you can install it via the command line by running:
 ```bash
 code --install-extension solam.scaffy
+```
+
+## Usage
+
+1. Open VS Code and open the **Command Palette** (Ctrl+Shift+P).
+2. Type and select the `Scaffy: Bootstrap Project` command.
+3. Follow the prompts to:
+    - Select the base folder where your project will be created.
+    - Enter a project name (valid Dart name).
+    - Enter a Flutter app name (valid Dart name).
+4. The extension will create the project structure, configure necessary files, and execute required terminal commands such as `flutter pub get` and `melos bootstrap`.
+
+## Commands
+
+- **Scaffy: Bootstrap Project**: Starts the project setup process, prompting for project and app names and setting up the structure.
